@@ -1,0 +1,33 @@
+{
+  "name": "my_website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "ts-node src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express-serve-static-core": "^5.0.2",
+    "@types/mongoose": "^5.11.97",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.2",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "@types/vue": "^1.0.31",
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@vue/compiler-sfc": "^3.5.13"
+  }
+}
